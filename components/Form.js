@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/Home.module.css'
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import Footer from './Footer';
 
 function Form() {
     return (
@@ -35,6 +36,7 @@ function Form() {
                     <Button variant="contained">Submit</Button>
                 </div>
             </form>
+
         </div >
     )
 }

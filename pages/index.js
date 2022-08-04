@@ -3,8 +3,10 @@ import Head from 'next/head'
 import AboutUs from '../components/AboutUs';
 import Body from '../components/Body';
 import ContactUs from '../components/ContactUs';
+import Footer from '../components/Footer';
 import Form from '../components/Form';
 import Navbar from '../components/Navbar';
+import WhatWeDo from '../components/WhatWeDo';
 import styles from '../styles/Home.module.css'
 
 
@@ -26,8 +28,9 @@ export default function Home() {
         </Head>
         <Navbar />
         <Body />
-        <AboutUs />
+        <WhatWeDo />
         <Form />
+        <Footer />
       </div>
 
     </>
