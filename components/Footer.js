@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
-import { FaLinkedin, FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaLinkedin, FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa'; 
 
 
 
@@ -13,7 +13,7 @@ function Footer() {
                 <FaLinkedin className={styles.icons} />
                 </a>
                 <a className={styles.a}
-                href='https://m.facebook.com/SAPoliceService/photos/a.244078998952383/1425245584169046/?type=3#_=_' target="_blank">
+                href='https://m.facebook.com/SAPoliceService/photos/a.244078998952383/1425245584169046/?type=3#_=_' target="_blank" rel="noreferrer" >
                  <FaFacebook className={styles.icons} />
                 </a>
                 <a className={styles.a}
@@ -21,11 +21,11 @@ function Footer() {
                  <FaInstagram className={styles.icons} />
                 </a>
                 <a className={styles.a}
-                href='https://twitter.com/SAPoliceService?t=L4fRKHGoK6K7K7QBOkU3SA&s=09'target="_blank">
+                href='https://twitter.com/SAPoliceService?t=L4fRKHGoK6K7K7QBOkU3SA&s=09'target="_blank" rel="noreferrer" >
                <FaTwitter className={styles.icons} />
                 </a>
                 <a className={styles.a}
-                href=' https://wa.me/0780221943' target="_blank">
+                href=' https://wa.me/0780221943' target="_blank" rel="noreferrer" >
                  <FaWhatsapp className={styles.icons} />
                 </a>
                 

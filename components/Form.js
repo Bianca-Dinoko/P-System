@@ -7,23 +7,7 @@ import axios from 'axios'
 
 function Form() {
 
-    const [email,setEmail]=useState('')
- const SendMail = async (e)=>{
-   e.preventDefault();
-   axios.post('http://localhost:3000/api/email',{email})
-   .then(
-    
-   (res)=>{
-     alert('Send Mail To You')
-     setEmail('')
- 
-   }
- 
-   ).catch(
-     (e)=>console.log(e)
-     
-   )
- }
+
  
 
     return (
@@ -37,7 +21,7 @@ function Form() {
                     />
                 </div>
                 <div>
-                    <TextField id="standard-basic" label="E-mail" variant="standard" className={styles.input} required onChange={(e)=>setEmail(e.target.value)}/>
+                    <TextField id="standard-basic" label="E-mail" variant="standard" className={styles.input} required />
                 </div>
                 <div>
                     <TextField id="standard-basic" label="Phone Number" variant="standard" className={styles.input} />
@@ -54,7 +38,7 @@ function Form() {
                     />
                 </div>
                 <div>
-                    <Button variant="contained" onClick={SendMail}>Submit</Button>
+                    <Button variant="contained" >Submit</Button>
                 </div>
             </form>
 
