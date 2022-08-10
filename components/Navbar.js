@@ -24,7 +24,11 @@ function Navbar() {
                             <a >Contact Us</a>
                         </Link>
                     </li>
-
+                    <li>
+                        <Link href="https://www.saps.gov.za/careers/careers.php">
+                            <a >Careers</a>
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>
