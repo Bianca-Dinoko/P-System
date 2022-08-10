@@ -13,6 +13,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 10px;
+
 }
 
 .h1 {
@@ -74,17 +75,16 @@
 
 /*files.js*/
 .filesContainer {
-  width: 600px;
-  height: 400px;
-  border: 1px solid black;
-  margin-top: 10px;
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 .Heading {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .input {
@@ -95,6 +95,7 @@
 /*WhatWeDo.js*/
 .box {
   text-align: center;
+  color: white;
 }
 
 /*Foter.js*/
@@ -102,7 +103,7 @@
   bottom: 0%;
   padding: 20px 10px;
   background-color: #126473;
-
+color: white;
   cursor: pointer;
 }
 
